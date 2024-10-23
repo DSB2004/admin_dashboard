@@ -9,7 +9,7 @@ export default function Dashboard() {
         <Navbar></Navbar>
         <div className="flex flex-col w-full h-screen">
           <Header></Header>
-          <div className="overflow-y-auto">
+          <div className="overflow-y-auto overflow-x-auto">
             <div className="m-3">
               <Outlet />
             </div>

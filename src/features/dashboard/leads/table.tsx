@@ -28,7 +28,9 @@ export default function Table() {
                   <Data key={ele.id + "_email"}>{ele.email}</Data>
                   <Data key={ele.id + "_phone"}>{ele.phone}</Data>
                   <Data key={ele.id + "_company"}>{ele.company}</Data>
-                  <Actions />
+                  <Data>
+                    <Actions />
+                  </Data>
                 </Row>
               </>
             );

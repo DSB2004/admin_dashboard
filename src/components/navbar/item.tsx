@@ -17,7 +17,7 @@ const Item: FC<IPROPS> = ({ children, className, href = "#" }) => {
       className={`relative cursor-pointer flex  flex-col justify-start align-middle transition-all duration-300 p-2 my-3  mx-4 ${className}`}
     >
       <Link
-        className={`flex justify-start items-center gap-5 text-sm md:text-base ${
+        className={`flex justify-start items-center gap-5 text-sm lg:text-base ${
           isActive ? "text-blue-500" : ""
         }`}
         to={href}

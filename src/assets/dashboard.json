@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "name": "Jan",
+      "value": 120
+    },
+    {
+      "name": "Feb",
+      "value": 135
+    },
+    {
+      "name": "Mar",
+      "value": 140
+    },
+    {
+      "name": "Apr",
+      "value": 155
+    },
+    {
+      "name": "May",
+      "value": 150
+    },
+    {
+      "name": "Jun",
+      "value": 160
+    },
+    {
+      "name": "Jul",
+      "value": 170
+    },
+    {
+      "name": "Aug",
+      "value": 165
+    },
+    {
+      "name": "Sep",
+      "value": 175
+    },
+    {
+      "name": "Oct",
+      "value": 180
+    },
+    {
+      "name": "Nov",
+      "value": 185
+    },
+    {
+      "name": "Dec",
+      "value": 190
+    }
+  ]
+}
