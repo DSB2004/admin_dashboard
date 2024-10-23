@@ -39,8 +39,8 @@ export default function Form({ closeAction }: { closeAction: Function }) {
                 </div>
 
                 <div className='flex justify-end items-center my-3'>
-                    <Button className='p-2  bg-yellow-500' >Add Lead</Button>
-                    <Button className='p-2 text-white bg-black'  >Cancel</Button>
+                    <Button type="button" className='p-2  bg-yellow-500' >Add Lead</Button>
+                    <Button type="button" className='p-2 text-white bg-black' onClick={() => closeAction()} >Cancel</Button>
                 </div>
             </div>
         </form>
